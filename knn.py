@@ -1,7 +1,4 @@
-import time
+x=10
+y=8
 
-while True:
-
-    current_time = time.strftime("%H:%M:%S", time.localtime())
-    print(current_time, end="\r")
-    time.sleep(1)
+assert x>y, 'X too small'
